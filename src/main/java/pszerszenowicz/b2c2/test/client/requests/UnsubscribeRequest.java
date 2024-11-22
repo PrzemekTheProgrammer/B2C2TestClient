@@ -10,4 +10,24 @@ public class UnsubscribeRequest {
         this.instrument = instrument;
         this.tag = tag;
     }
+
+    public String getEvent() {
+        return event;
+    }
+
+    public String getInstrument() {
+        return instrument;
+    }
+
+    public void setInstrument(String instrument) {
+        this.instrument = instrument;
+    }
+
+    public String getTag() {
+        return tag;
+    }
+
+    public void setTag(String tag) {
+        this.tag = tag;
+    }
 }

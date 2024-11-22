@@ -16,4 +16,40 @@ public class SubscribeRequest {
         this.levels = levels;
         this.tag = tag;
     }
+
+    public String getEvent() {
+        return event;
+    }
+
+    public String getInstrument() {
+        return instrument;
+    }
+
+    public void setInstrument(String instrument) {
+        this.instrument = instrument;
+    }
+
+    public String getCurrency() {
+        return currency;
+    }
+
+    public void setCurrency(String currency) {
+        this.currency = currency;
+    }
+
+    public List<Integer> getLevels() {
+        return levels;
+    }
+
+    public void setLevels(List<Integer> levels) {
+        this.levels = levels;
+    }
+
+    public String getTag() {
+        return tag;
+    }
+
+    public void setTag(String tag) {
+        this.tag = tag;
+    }
 }
