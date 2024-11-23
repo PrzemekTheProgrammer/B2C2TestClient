@@ -28,8 +28,6 @@ public class Client {
     private final int targetPort = 8080;
     private final ObjectMapper mapper = new ObjectMapper();
 
-    private Channel channel;
-
     public void start() throws Exception {
         URI uri = new URI("ws://"+targetHost+":"+targetPort+"/");
         EventLoopGroup group = new NioEventLoopGroup();
